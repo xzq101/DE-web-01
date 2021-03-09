@@ -13,3 +13,7 @@ And add react-bootstrap by:
 npm i react-bootstrap
 
 import {Container , Row, Col } from "react-bootstrap"
+
+npm i react-router-dom react-router-bootstrap
+
+Add router to App.js
