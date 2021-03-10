@@ -1,26 +1,15 @@
 import React from "react";
 import "./Header.css";
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import logos from "./logo192.png";
 
 const Header = () => {
   return (
     <header>
-      <Navbar className="no-border" bg="light" expand="lg" border-white>
+      <Navbar className="no-border" bg="light" expand="lg">
         <Container>
           <Navbar.Brand className="navbar-brand" href="/">
-            <img
-              alt="DeepEquilibrium"
-              src="DeepLogo-s2.png"
-              className="img-responsive logo"
-            ></img>
+            <img alt="DeepEquilibrium" src={logos} className="logo"></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
