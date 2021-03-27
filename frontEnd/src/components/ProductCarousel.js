@@ -11,13 +11,13 @@ const ProductCarousel = () => {
       <Carousel.Item pause={"hover"}>
         <LinkContainer to={`/class/1`}>
           <img
-            className="d-block w-100"
+            className="d-block w-100 "
             src="/images/me-8-4-3.png"
             alt="First slide"
           />
         </LinkContainer>
         <Carousel.Caption className="ml">
-          <h2 className="class-time">2021 summer class registration open</h2>
+          {/* jsx <h2 className="class-time">2021 summer class registration open</h2>*/}
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -29,10 +29,7 @@ const ProductCarousel = () => {
             alt="Second slide"
           />
         </LinkContainer>
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+        <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <LinkContainer to={`/class/3`}>
@@ -42,12 +39,7 @@ const ProductCarousel = () => {
             alt="Third slide"
           />
         </LinkContainer>
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
