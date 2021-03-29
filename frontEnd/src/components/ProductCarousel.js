@@ -3,8 +3,6 @@ import Carousel from "react-bootstrap/Carousel";
 import { LinkContainer } from "react-router-bootstrap";
 import "./ProductCarousel.css";
 
-import products from "../products";
-
 const ProductCarousel = () => {
   return (
     <Carousel>
