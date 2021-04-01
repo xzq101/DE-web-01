@@ -13,21 +13,27 @@ const class_1 = (id) => {
         <Row>
           <Col sm={12}>
             <Card className="my-3 p-3 rounded">
-              <Card.Title>本课程需要的基础</Card.Title>
+              <Card.Title>本课程需要的基础 (Prerequisites)</Card.Title>
               <Card.Body>
-                力学是物理的基础课，因此无需物理基础。数学方面需要有代数基础，能用字母求解二元一次方程，多元一次方程组，以及分析图表。无需三角函数基础。
+                力学是物理的基础课，因此无需物理基础。数学方面需要有代数基础，能用字母求解二元一次方程，多元一次方程组，以及分析图表。无需三角函数基础。(This
+                class is designed for students in Grade 8 to Grade 12. For
+                students in Grade 8, need to learn algebra before this class.)
               </Card.Body>
-              <Card.Title>授课语言</Card.Title>
-              <Card.Body>英语</Card.Body>
+              <Card.Title>授课语言 (Language of instruction)</Card.Title>
+              <Card.Body>英语 (English)</Card.Body>
             </Card>
           </Col>
         </Row>
         <Row>
           <Col sm={12}>
             <Card className="my-3 p-3 rounded">
-              <Card.Title>上课时间</Card.Title>
+              <Card.Title>上课时间 (Class Meet Time)</Card.Title>
               <Card.Body>
-                2021年暑假的力学课开设两个时段。两个时段的总授课时间和每周进度保持一致。每次课课后作业时间在1个小时左右。
+                2021年暑假的力学课开设两个时段。两个时段的总授课时间和每周进度保持一致。每次课课后作业时间在1个小时左右。(The
+                mechanics class in the summer of 2021 will offer two sessions.
+                The total teaching time and weekly progress of the two periods
+                are consistent. The homework time after each class is about 1
+                hour.)
               </Card.Body>
               <Row>
                 <Col sm={6}>
@@ -35,7 +41,7 @@ const class_1 = (id) => {
                     <Card.Img variant="top" src={classTwo2} />
                     <Card.Body>
                       <Card.Text className="text-center">
-                        一周2次课课表
+                        课程表：一周2次课 （Twice a Week)
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -45,7 +51,7 @@ const class_1 = (id) => {
                     <Card.Img variant="top" src={classTwo3} />
                     <Card.Body>
                       <Card.Text className="text-center">
-                        一周3次课课表
+                        课程表：一周3次课 （Three Classes a Week)
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -58,7 +64,7 @@ const class_1 = (id) => {
         <Row>
           <Col sm={12}>
             <Card className="my-3 p-3 rounded">
-              <dt>课程内容安排 (会根据每个班学生的具体情况稍有调整)</dt>
+              <dt>课程内容安排 (Class Schedule)</dt>
               <dd>
                 <ul>
                   <li>Week 1: 1D kinematic equations</li>
@@ -76,7 +82,7 @@ const class_1 = (id) => {
                   <li>Week 10: Problem solving strategies</li>
                 </ul>
               </dd>
-              <dt>课程教材</dt>
+              <dt>课程教材 (Text Book)</dt>
               <dd>
                 <ul>
                   <li>
@@ -101,11 +107,12 @@ const class_1 = (id) => {
                     , by Halliday, Resnick, and Krane
                   </li>
                   <li>
-                    每次课会有讲义可供学生复习。每次课程都会有录像上传到Youtube的私有频道，学生可以用自己的Google帐号登录查看。
+                    每次课会有讲义可供学生复习。每次课程都会有录像上传到Youtube的私有频道，学生可以用自己的Google帐号登录查看。(Handouts
+                    and class recordings are available for every lesson.)
                   </li>
                 </ul>
               </dd>
-              <dt>网课如何进行？</dt>
+              <dt>网课如何进行？ </dt>
               <dd>
                 <ul>
                   <li>
@@ -129,6 +136,29 @@ const class_1 = (id) => {
                   </li>
                 </ul>
               </dd>
+              <dd>
+                <dt>How do online classes work?</dt>
+                <ul>
+                  <li>
+                    After enrolling, the student will be invited to a google
+                    classroom. Class notes, homework, and homework solutions for
+                    each class will be posted in the google classroom.
+                  </li>
+                  <li>Google meet is used for online teaching.</li>
+                  <li>
+                    Record class videos will be posted to a private youtube
+                    channel. A sample class can be found
+                    <a href="https://youtu.be/E-eApGRawUc" target="_blank">
+                      here
+                    </a>
+                    .
+                  </li>
+                  <li>
+                    Record homework solution videos will be posted to youtube to
+                    help students solve challenge problems.
+                  </li>
+                </ul>
+              </dd>
               <dt>学费</dt>
               <dd>
                 <ul>
@@ -141,6 +171,28 @@ const class_1 = (id) => {
                   </li>
                   <li>3次课以后退课，按未上课次数比例退款。</li>
                   <li>所有学生可以免费重上同一课程。</li>
+                </ul>
+              </dd>
+              <dt>Tuition</dt>
+              <dd>
+                <ul>
+                  <li>
+                    Tuition for Summer Class is $1500. Tuition should be paid
+                    before the class starts.
+                  </li>
+                  <li>
+                    Each student can attend 3 lessons to decide if he/she wants
+                    to continue the study. If a student quit in the first three
+                    lessons, a full refund will be issued.
+                  </li>
+                  <li>
+                    When a student withdraws the class after 3 lessons, a
+                    pro-rated refund will be given.
+                  </li>
+                  <li>
+                    All students can re-take the same class in the future for
+                    free.
+                  </li>
                 </ul>
               </dd>
               <dt>报名方法</dt>

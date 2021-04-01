@@ -19,7 +19,7 @@ const ProductScreen = ({ match }) => {
           中文
         </Button>
       </LinkContainer>
-      <EnLBut e_id={product._id} />
+
       <Container>
         <Row>
           <Col sm={8}>

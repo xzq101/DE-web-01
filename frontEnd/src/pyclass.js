@@ -26,6 +26,18 @@ const pyclass = [
         p:
           "教师讲解过程中力求阐述每个物理公式的来源，历史，推导以及适用范围。引导学生将物理原理应用在观察分析身边发生的物理现象。课程难度适中，比较适合作为高中物理的入门课程。",
       },
+      {
+        p:
+          "This course is a two-semester (30 lessons) algebra-based physics class focus on mechanics. After taking the class, students would be ready to take AP Physics 1 (mechanics problems can be solved with algebra ). For students who learned calculus could take AP Physics C (mechanics). If students like to go further, they could continue and prepare for the F=ma exam, the qualifying exam for USAPHO.",
+      },
+      {
+        p:
+          "The course emphasizes the underlying concepts and principles, introduces measurement, estimating, and Newtonian mechanics. Topics include kinematics and dynamics, translational motion, vectors, circular motion, gravitation, work, energy, power, momentum, and rotational motion.",
+      },
+      {
+        p:
+          "There are 30 lessons, each for 1.5 hours, in the two-semester Mechanics class, including 50% theory lessons and 50% practice lessons.",
+      },
     ],
   },
   {
