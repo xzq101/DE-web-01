@@ -2,6 +2,8 @@
 
 git push -u origin main
 
+cp -r \* /var/www/DE/html
+
 # front end
 
 start from App.js -> Header.js (use rafce short cut)
