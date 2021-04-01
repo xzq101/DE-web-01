@@ -20,7 +20,7 @@ const ProductCarousel = () => {
       </Carousel.Item>
 
       <Carousel.Item>
-        <LinkContainer to={`/class/2`}>
+        <LinkContainer to={`/class/5`}>
           <img
             className="d-block w-100"
             src="/images/amc-mathcount.png"

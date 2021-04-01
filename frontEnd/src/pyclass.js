@@ -11,7 +11,7 @@ const pyclass = [
     price: 1500,
     countInStock: 10,
 
-    grade: "适合：8-11年级学生",
+    grade: "适合：8-11年级学生 (For Grade 8-11)",
     classBegin: "开课时间：6/19/2021",
     description: [
       {
@@ -32,79 +32,111 @@ const pyclass = [
     _id: "2",
     name: "F=ma exam preparation",
     grade: "For students have learned Mechanics",
+    classBegin: "开课时间：2021 fall",
+    introduction:
+      "This class is a advanced level course to prepare for the F=ma exam. The goal of this course is to help students to qualify for USAPHO in F=ma exam. It is planned to offer 15 courses, each for 1.5 hours.",
+    prequalification:
+      "该课程有一定难度，适合上过Mechanics课程的学生，或者AP physics 1 4分以上的学生。",
     description: [
       {
         p:
-          "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+          "本课程专门为参加F=ma考试设置。开课时间为每年秋季。总共15次课，每次1.5小时。 在这门课中，学生将深入学习转动，角动量守恒，开普勒定律和简谐振动。这些知识点都是在F=ma考试中的难点。 深入掌握这些知识可以帮助学生弥补AP physics中知识和解题经验的不足。",
+      },
+      {
+        p:
+          "在课程中会将2011-2015年的F=ma真题分类，布置给学生作为作业。学生轮流在课上讲解自己的解题方法。老师会引导学生用最快，最有效的方法来求解复杂的物理问题。",
       },
     ],
 
-    brand: "Apple",
     category: "Physics",
-    price: 599.99,
-    countInStock: 7,
-    rating: 4.0,
-    numReviews: 8,
+    price: 900,
   },
   {
     _id: "3",
     name: "One problem per day",
-
+    introduction: "Pratices one Physics problem every day in Summer 2021.",
     description: [
       {
-        p:
-          "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
-      },
-      {
-        p:
-          "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
+        p: "Pratices one Physics problem every day in Summer 2021.",
       },
     ],
-
-    brand: "Cannon",
+    grade: "All grade.",
+    classBegin: "Summer 2021",
     category: "Physics",
-    price: 929.99,
-    countInStock: 5,
-    rating: 3,
-    numReviews: 12,
+    price: 0.0,
   },
   {
     _id: "4",
     name: "AMC 8",
-
+    grade: "Grade 4-6",
     introduction:
-      "This course is designed for students who just start or plan to take AMC 8 contest. We will use the textbook Pre-algebra which includes the introduction of algebra, number theory, geometry and counting. One lesson per week. Homework will be assigned after class. Students need to turn in solutions one day before next class.",
+      "This class is designed for students in Grade 4 to Grade 6. Class size limits to 8 students.",
+
     description: [
       {
         p:
           "This course is designed for students who just start or plan to take AMC 8 contest. We will use the textbook Pre-algebra which includes the introduction of algebra, number theory, geometry and counting. One lesson per week. Homework will be assigned after class. Students need to turn in solutions one day before next class.",
       },
     ],
-
-    brand: "Apple",
+    classBegin: "From 9/10/2020 to 12/17/2020",
     category: "Math",
-    price: 1500,
-    countInStock: 10,
-    rating: 4.5,
-    numReviews: 12,
+    price: 700,
   },
   {
     _id: "5",
     name: "AMC8 & MATHCOUNTS Workshop",
-
+    grade: "Grade 4-8",
+    introduction:
+      "The goal of this course is to help students preparing for Mathcounts and AMC 8 contests.",
     description: [
       {
         p:
-          "Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life",
+          "The goal of this course is to help students preparing for Mathcounts and AMC 8 contests. In each class, students will take a 40 minutes test first. The instructor will work with students to explain their mistakes in the test and summarize the problem-solving methods and ideas. The in-class test use past AMC8 and mathcount real problems, as well as questions from the teacher.",
+      },
+      {
+        p:
+          "Every month, the teacher will summarize one of the following topics: Algebra, Geometry, Number Theory, or Counting & Probability, based on the student's progress this month.",
       },
     ],
-
+    classBegin: "Feb. 22, 2021 to Jun. 15, 2021",
     brand: "Apple",
     category: "Math",
     price: 599.99,
     countInStock: 7,
     rating: 4.0,
     numReviews: 8,
+  },
+  {
+    _id: "6",
+    name: "Physics -- Level 2",
+    introduction:
+      "This couse covers Electricity, Magnetism, Fluids and Thermodynamics.",
+    description: [
+      {
+        p:
+          "This couse covers Electricity, Magnetism, Fluids and Thermodynamics.",
+      },
+    ],
+    grade: "Finished Mechanics course.",
+    classBegin: "Fall 2021",
+    category: "Physics",
+    price: 750,
+  },
+  {
+    _id: "7",
+    name: "USAPHO semifinal preparation",
+    introduction:
+      "This is an advanced course to help students prepare for the second round of the USAPHO exam..",
+    description: [
+      {
+        p:
+          "This is an advanced course to help students prepare for the second round of the USAPHO exam..",
+      },
+    ],
+    grade: "For students doing well in F=MA exam.",
+    classBegin: "TBD",
+    category: "Physics",
+    price: 750,
   },
 ];
 

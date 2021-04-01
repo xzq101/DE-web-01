@@ -1,10 +1,8 @@
 import React from "react";
 import pyclass from "../pyclass";
-import EnLBut from "./enButtun";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import classTwo2 from "../img/class2021summer2.png";
-import classTwo3 from "../img/class-3-2021-summer.png";
-const class_1 = (id) => {
+
+const class_2 = (id) => {
   if (id.C_id === "1") {
     let product = pyclass.find((p) => p._id === "1");
 
@@ -187,113 +185,18 @@ const class_1 = (id) => {
       let product = pyclass.find((p) => p._id === "2");
       console.log(product.name);
       return (
-        <Container>
-          <Row>
-            <Col sm={12}>
-              <Card className="my-3 p-3 rounded">
-                <Card.Title>本课程需要的基础</Card.Title>
-                <Card.Body>
-                  该课程有一定难度，适合上过Mechanics课程的学生，或者AP physics
-                  1 4分以上的学生。
-                </Card.Body>
-                <Card.Title>授课语言</Card.Title>
-                <Card.Body>英语</Card.Body>
-                <dt>课程安排 (会根据班级情况稍作调整)</dt>
-                <dd>
-                  <ul>
-                    <li>Class 1-2: Kepler’s laws & planetary motion</li>
-                    <li>
-                      Class 3-4: Angular momentum conservation and Rolling
-                    </li>
-                    <li>Class 5-6: Oscillations & Fluid mechanics</li>
-                    <li>Class 7-8: Momentum & Energy conservation</li>
-                    <li>Class 9: 1D & 2D kinematic motion</li>
-                    <li>Class 10: Static Equilibrium</li>
-                    <li>Class 11-15: Review 1 F=ma exam a week</li>
-                  </ul>
-                </dd>
-                <dt>课程教材</dt>
-
-                <dd>
-                  <ul>
-                    <li>
-                      Book 1 (High school text book):
-                      <a
-                        href="https://salmanisaleh.files.wordpress.com/2019/02/fundamentals-of-physics-textbook.pdf"
-                        target="_blank"
-                      >
-                        Fundamentals of Physics
-                      </a>
-                      , 10th Edition, by David Halliday, Robert Resnick, Jearl
-                      Walker
-                    </li>
-                    <li>
-                      Book 2 (USAPHO assigned book):
-                      <a
-                        href="https://www.amazon.com/Physics-1-Robert-Resnick/dp/0471320579"
-                        target="_blank"
-                      >
-                        Physics
-                      </a>
-                      , by Halliday, Resnick, and Krane
-                    </li>
-                  </ul>
-                </dd>
-                <dt>开课时间</dt>
-                <ul>
-                  <li>2021年秋季</li>
-                </ul>
-                <dt>学费</dt>
-                <dd>
-                  <ul>
-                    <li>
-                      Tuition for all 15 lessons is $900. Tuition should be paid
-                      before the class starts.
-                    </li>
-                    <li>
-                      Return students get $10 off discount per class. Tuition
-                      for the 15 lessons in fall 2020 for return students is
-                      $750.
-                    </li>
-                    <li>
-                      Each student can attend 3 lessons to decide if he/she
-                      wants to continue the study. If a student quit in the
-                      first three lessons, a full refund will be issued.
-                    </li>
-                    <li>
-                      When a student withdraws the class after 3 lessons, a
-                      pro-rated refund will be given.
-                    </li>
-                    <li>
-                      All students can re-take the same class in the future for
-                      free.
-                    </li>
-                  </ul>
-                </dd>
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={12}>
-              <Card className="my-3 p-3 rounded">
-                <Card.Title>Instructor</Card.Title>
-
-                <p>
-                  Dr. Qin was a China PHO qualifier in high school. He received
-                  his Bachelor's degree from the Mechanical Engineering
-                  Department at Peking University, and his Ph.D. from Penn State
-                  University in computation mechanics. Dr. Qin then joined
-                  ABAQUS, the world top numerical simulation company, and
-                  currently a Principal Mechanical Engineer at an Aerospace
-                  industry. He was also an adjunct professor at URI from
-                  2018-2019. He brings his experience from academia and industry
-                  to help students understand the fundamental physics principle
-                  and apply them to the real world problems.
-                </p>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
+        <Row>
+          <Col sm={12}>
+            <Card className="my-3 p-3 rounded">
+              <Card.Title>本课程需要的基础</Card.Title>
+              <Card.Body>
+                力学是物理的基础课，因此无需物理基础。数学方面需要有代数基础，能用字母求解二元一次方程，多元一次方程组，以及分析图表。无需三角函数基础。
+              </Card.Body>
+              <Card.Title>授课语言</Card.Title>
+              <Card.Body>英语</Card.Body>
+            </Card>
+          </Col>
+        </Row>
       );
     } else {
       return <div> </div>;
@@ -301,4 +204,4 @@ const class_1 = (id) => {
   }
 };
 
-export default class_1;
+export default class_2;

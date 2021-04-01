@@ -7,18 +7,19 @@ import { Link } from "react-router-dom";
 import "../components/Buttun.css";
 import { LinkContainer } from "react-router-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
+import EnLBut from "../components/enButtun";
 
 const ProductScreen = ({ match }) => {
   let product = pyclass.find((p) => p._id === match.params.id);
 
   return (
     <>
-      <LinkContainer to={`/class/${product._id}/#ch`}>
+      <LinkContainer to={`/class/${product._id}`}>
         <Button variant="info" className="my-3 p-3 rounded">
           中文
         </Button>
       </LinkContainer>
-
+      <EnLBut e_id={product._id} />
       <Container>
         <Row>
           <Col sm={8}>
