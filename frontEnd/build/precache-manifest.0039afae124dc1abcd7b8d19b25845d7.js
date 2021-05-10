@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a35f79909184339efd3e66f803f872ce",
+    "revision": "696c3dce371ffdfbd53dfa2d05ee64de",
     "url": "/index.html"
   },
   {
-    "revision": "b188fcaa0d8a258c3392",
+    "revision": "fad55902ee78ec3c0c09",
     "url": "/static/css/main.3f63f914.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a0eec067.chunk.js"
   },
   {
-    "revision": "b188fcaa0d8a258c3392",
-    "url": "/static/js/main.d5563fd5.chunk.js"
+    "revision": "fad55902ee78ec3c0c09",
+    "url": "/static/js/main.531125b0.chunk.js"
   },
   {
     "revision": "1424e0cd0707dc708597",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/class-3-2021-summer.bb96ef79.png"
   },
   {
-    "revision": "4c37825d52ac98845be6fe5d4fc12ef1",
-    "url": "/static/media/class2021summer2.4c37825d.png"
+    "revision": "c4490f5d0f44ea2698e72c64a10a49a3",
+    "url": "/static/media/class2021summer2.c4490f5d.png"
   },
   {
     "revision": "a201a234e6c91192ee70202e6e29b56b",

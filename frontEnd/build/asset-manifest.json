@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.3f63f914.chunk.css",
-    "main.js": "/static/js/main.d5563fd5.chunk.js",
-    "main.js.map": "/static/js/main.d5563fd5.chunk.js.map",
+    "main.js": "/static/js/main.531125b0.chunk.js",
+    "main.js.map": "/static/js/main.531125b0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.361ca6c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.361ca6c3.js.map",
     "static/js/2.a0eec067.chunk.js": "/static/js/2.a0eec067.chunk.js",
     "static/js/2.a0eec067.chunk.js.map": "/static/js/2.a0eec067.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9edc001b16c9d1f52d259153dce610da.js": "/precache-manifest.9edc001b16c9d1f52d259153dce610da.js",
+    "precache-manifest.0039afae124dc1abcd7b8d19b25845d7.js": "/precache-manifest.0039afae124dc1abcd7b8d19b25845d7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.3f63f914.chunk.css.map": "/static/css/main.3f63f914.chunk.css.map",
     "static/media/class-3-2021-summer.png": "/static/media/class-3-2021-summer.bb96ef79.png",
-    "static/media/class2021summer2.png": "/static/media/class2021summer2.4c37825d.png",
+    "static/media/class2021summer2.png": "/static/media/class2021summer2.c4490f5d.png",
     "static/media/logo192.png": "/static/media/logo192.a201a234.png"
   },
   "entrypoints": [
     "static/js/runtime-main.361ca6c3.js",
     "static/js/2.a0eec067.chunk.js",
     "static/css/main.3f63f914.chunk.css",
-    "static/js/main.d5563fd5.chunk.js"
+    "static/js/main.531125b0.chunk.js"
   ]
 }

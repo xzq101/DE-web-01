@@ -79,44 +79,211 @@ const pyclass = [
   },
   {
     _id: "4",
-    name: "AMC 8",
+    name: "Prealgebra",
     grade: "Grade 4-6",
     introduction:
-      "This class is designed for students in Grade 4 to Grade 6. Class size limits to 8 students.",
+      "The prealgebra course teaches students basic math concepts and problem-solving skills, and prepares students for MATHCOUNTS and AMC 8.Topics.",
 
     description: [
       {
         p:
-          "This course is designed for students who just start or plan to take AMC 8 contest. We will use the textbook Pre-algebra which includes the introduction of algebra, number theory, geometry and counting. One lesson per week. Homework will be assigned after class. Students need to turn in solutions one day before next class.",
+          "No prerequisites is required. Beast academy or RSM experience is a plus.",
+      },
+      {
+        p:
+          "The prealgebra course teaches students basic math concepts and problem-solving skills, and prepares students for MATHCOUNTS and AMC 8.Topics.",
+      },
+      {
+        p: "Course Schedule  :",
+      },
+      {
+        p:
+          "* About 30 lessons; Course topics will be adjusted according to placement test results.",
+      },
+      {
+        p:
+          "Students are expected to finish homework independently and submit detailed answers on time. Homework will be graded before new lesson.",
+      },
+
+      {
+        p: "Topics:",
+      },
+      {
+        p: "*Algebra",
+      },
+      {
+        p: "*Properties of arithmetic",
+      },
+      {
+        p: "*Fractions, Decimals, Percents, Ratios",
+      },
+      {
+        p: "*Exponent, Square Roots",
+      },
+      {
+        p: "*Linear Equation, Word Problems",
+      },
+      {
+        p: "*Geometry",
+      },
+      {
+        p: "*Angles, Parallel Lines, Angles in Triangle and Polygons",
+      },
+      {
+        p: "*Perimeter and Area",
+      },
+      {
+        p: "*Special Triangles, Types of Quadrilaterals",
+      },
+      {
+        p: "*Number Theory",
+      },
+      {
+        p: "*Multiples, Divisors, LCM, GCD",
+      },
+      {
+        p: "*Prime Number, Prime Factorization",
+      },
+      {
+        p: "*Divisibility Rules",
+      },
+      {
+        p: "*Counting &amp; Probability",
+      },
+      {
+        p:
+          "*Basic Counting Skills: Add-Subtract, Multiplication Principle, Casework",
+      },
+      {
+        p: "*Overcounting",
+      },
+      {
+        p: "*Probability Introduction",
+      },
+      {
+        p: "*Basic Statistics",
+      },
+      {
+        p:
+          "·课程安排：这门课程讲授基本数学概念和技巧. 内容包括代数,几何,数论和概率. 帮助学生开始准备将来的AMC8 或者Mathcounts竞赛. 本课程小班教授,零基础要求. 课程大概需要30次, 内容和进度将根据学生实际学习情况进行调节.如果有特殊情况缺课，可以提供录播课。",
+      },
+      {
+        p: "·课后：老师布置并批改作业。",
+      },
+      {
+        p: "上课方式：Zoom 网课",
+      },
+      {
+        p:
+          "老师背景：北大数学系本科、统计PHD。两年数学竞赛教学经验，老师本人非常热爱数学，教课认真负责，熟悉解题技巧，讲题分析透彻。",
+      },
+      {
+        p: "报名联系方式：微信号 Wjynhhd_21 邮箱地址：demath2021@gmail.com",
       },
     ],
-    classBegin: "From 9/10/2020 to 12/17/2020",
+    classBegin: "From 6/21, Monday 7-8:30 pm",
     category: "Math",
-    price: 700,
+    price: "50/1.5 hours, 30 times",
   },
   {
     _id: "5",
-    name: "AMC8 & MATHCOUNTS Workshop",
-    grade: "Grade 4-8",
+    name: "Algebra 代数",
+    grade: "Grade 5-9",
     introduction:
-      "The goal of this course is to help students preparing for Mathcounts and AMC 8 contests.",
+      "This course is designed for students preparing for AMC8 &amp; AMC10 contest. We will study all Algebra topics for AMC 8&amp;10. It will cover most chapters of Introduction to Algebra. Students will be assigned review and challenge problems on textbook, and AMC 10 algebra problems.",
     description: [
       {
         p:
-          "The goal of this course is to help students preparing for Mathcounts and AMC 8 contests. In each class, students will take a 40 minutes test first. The instructor will work with students to explain their mistakes in the test and summarize the problem-solving methods and ideas. The in-class test use past AMC8 and mathcount real problems, as well as questions from the teacher.",
+          "This course is designed for students preparing for AMC8 &amp; AMC10 contest. We will study all Algebra topics for AMC 8&amp;10. It will cover most chapters of Introduction to Algebra. Students will be assigned review and challenge problems on textbook, and AMC 10 algebra problems.",
+      },
+      {
+        p: "Algebra （课程内容）",
+      },
+      {
+        p: "*Linear Equations, Ratio, Word Problem",
+      },
+      {
+        p: "*Graph Lines",
+      },
+      {
+        p: "*Inequalities and Graph Inequalities",
       },
       {
         p:
-          "Every month, the teacher will summarize one of the following topics: Algebra, Geometry, Number Theory, or Counting & Probability, based on the student's progress this month.",
+          "*Quadratic Equations: Completing the Square, Quadratic Formula, Vieta Formula, Quadratic",
+      },
+      {
+        p: "*Optimization",
+      },
+      {
+        p: "*Factorization, Simon&#39;s Favorite Factoring Trick",
+      },
+      {
+        p: "*Graph Quadratics, Circles",
+      },
+      {
+        p:
+          "*Quadratic Inequalities, Polynomial Inequalities, Trivial Inequality, AM-GM Inequality",
+      },
+      {
+        p:
+          "*Function, Composition, Inverse Function, Graph Function, Transformation",
+      },
+      {
+        p:
+          "*Polynomial Division, Remainder Theorem, Factor Theorem, Identity Theorem, Vieta Formula",
+      },
+      {
+        p: "*Exponential Function",
+      },
+      {
+        p: "*Absolute Function, Floor Function, Piecewise Defined Function",
+      },
+      {
+        p:
+          "*Arithmetic Sequence, Geometric Sequence, Difference Method, Telescoping Series",
+      },
+      {
+        p: "*Algebra Manipulations, Method of Undetermined Coefficients",
+      },
+      {
+        p: "·课程设计：",
+      },
+      {
+        p:
+          "-- 本课程是为准备参加AMC8 &amp; AMC10考试的学生开设, 以代数为主题，采用小班教学。内容将覆盖AMC 8&amp;10 的代数知识, 帮助学生扎实基础, 查缺补漏知识点，实现书本到竞赛的跨越。内容主要以Introduction to Algebra为主. 学生将在老师带领下完成书上练习题,挑战题和以往竞赛考试中的代数题目。老师布置并批改作业，鼓励学生在课上参与讲解题目，梳理解题思路。",
+      },
+      {
+        p: "·课程适用： ",
+      },
+      {
+        p:
+          "-- 学完Prealgebra, 需要继续学习Algebra的学生。学过Algebra, 但是基础不够扎实需要提高的学生。",
+      },
+      {
+        p: "·课程用书：Introduction to Algebra (AOPS) ",
+      },
+      {
+        p: "·上课方式：Zoom 网课",
+      },
+      {
+        p: "·老师背景：",
+      },
+      {
+        p:
+          "-- 北大数学系本科、统计PHD。两年数学竞赛教学经验，老师本人非常热爱数学，教课认真负责，熟悉解题技巧，讲题分析透彻。",
+      },
+      {
+        p: "·报名联系方式 ",
+      },
+      {
+        p: "-- 微信号 Wjynhhd_21 邮箱地址：demath2021@gmail.com",
       },
     ],
-    classBegin: "Feb. 22, 2021 to Jun. 15, 2021",
+    classBegin: "7-8:30pm（TBD）",
     brand: "Apple",
     category: "Math",
-    price: 599.99,
-    countInStock: 7,
-    rating: 4.0,
-    numReviews: 8,
+    price: "65/1.5 hours",
   },
   {
     _id: "6",

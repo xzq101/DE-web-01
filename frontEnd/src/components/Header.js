@@ -46,13 +46,7 @@ const Header = () => {
                   href="/#t_mathclass"
                   className="nav-font-size-2"
                 >
-                  AMC 8 Course
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/#t_mathclass"
-                  className="nav-font-size-2"
-                >
-                  AMC8 & MATHCOUNTS Workshop
+                  MATH COURSES
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
